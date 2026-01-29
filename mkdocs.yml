@@ -15,7 +15,6 @@ extra_css:
 
 nav:
   - COURS:
-      - Accueil : index.md
 
       - "Chapitre 1 – Au cœur de l’ordinateur":
           - cours/chap01_ordinateur/index.md
