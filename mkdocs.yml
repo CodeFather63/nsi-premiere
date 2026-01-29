@@ -15,7 +15,7 @@ extra_css:
 
 nav:
   - COURS:
-      - cours/index.md
+      - Accueil : index.md
 
       - "Chapitre 1 – Au cœur de l’ordinateur":
           - cours/chap01_ordinateur/index.md
@@ -125,6 +125,7 @@ nav:
 
   - Sujets BAC:
       - sujets_bac/index.md
+
 
 
 markdown_extensions:
