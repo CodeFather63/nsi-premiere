@@ -15,7 +15,7 @@
     <tr>
       <td>Tom Le Robot</td>
       <td><a href="sujets/Tom Le robot.pdf" target="_blank">📄 PDF</a></td>
-      <td><a href="Tom Le robot_corrige.pdf" target="_blank">📄 PDF</a></td>
+      <td><a href="corriges/Tom Le robot_corrigeBOUH.pdf" target="_blank">📄 PDF</a></td>
     </tr>
     <tr>
       <td>s2 (J2AN1)</td>

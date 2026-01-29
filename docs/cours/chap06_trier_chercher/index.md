@@ -9,7 +9,13 @@ La définition informatique est cependant plus précise : elle impose que les é
 Ce chapitre aborde les deux ordres les plus courants, à savoir l’ordre usuel pour les nombres réels (1 < 2.5 < 4.3…)et l’ordre du dictionnaire ('a' < 'abc' < 'ad' < 'b') pour les chaînes de caractères.
 
 Ce chapitre montre l’intérêt de trier un tableau en comparant l’efficacité des recherches linéaire et dichotomique. Puis il présente deux algorithmes de tri : 
+
   - le tri par insertion 
   - le tri par sélection. 
 
 Enfin, la terminaison et la complexité (dans le pire cas) de ces algorithmes sont prouvées rigoureusement.
+
+
+<a href="https://interstices.info/les-algorithmes-de-tri/" target="_blank" rel="noopener">
+📘 Pour en savoir plus sur ces 2 algorithmes de tris mais aussi sur d'autres ....
+</a>

@@ -58,6 +58,8 @@ nav:
           - "Activités": cours/chap06_trier_chercher/activites/index.md
           - "Cours": cours/chap06_trier_chercher/cours/index.md
           - "Exercices": cours/chap06_trier_chercher/exercices/index.md
+          - "Corrigés": cours/chap06_trier_chercher/exercices/corriges.md
+          - "Révisions" : cours/chap06_trier_chercher/revision/index.md
 
       - "Chapitre 7 – Données en tables":
           - cours/chap07_donnees_tables/index.md
@@ -123,3 +125,9 @@ nav:
 
   - Sujets BAC:
       - sujets_bac/index.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
