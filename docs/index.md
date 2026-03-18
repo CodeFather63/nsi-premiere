@@ -1,34 +1,25 @@
----
-hide:
-  - navigation
-  - toc
----
+# Ressources lycée
 
-<div class="home">
-  <div class="home-inner">
-    <h1>Numérique et Sciences Informatiques</h1>
-    <h2>Première</h2>
+## Choisissez une rubrique
 
-    <div class="home-grid">
-      <a class="home-card" href="cours/">
-        <div class="home-title">COURS</div>
-        <div class="home-sub">Chapitres 1 à 14</div>
-      </a>
+<div class="grid cards" markdown>
 
-      <a class="home-card" href="defis/">
-        <div class="home-title">DÉFIS</div>
-        <div class="home-sub">Défis, challenges</div>
-      </a>
+-   ## Maths en Première
 
-      <a class="home-card" href="epreuve_pratique/">
-        <div class="home-title">ÉPREUVE PRATIQUE</div>
-        <div class="home-sub">Sujets + ZIP + corrigés</div>
-      </a>
+    Cours, exercices et révisions.
 
-      <a class="home-card" href="sujets_bac/">
-        <div class="home-title">SUJETS BAC</div>
-        <div class="home-sub">Énoncés + corrections (PDF)</div>
-      </a>
-    </div>
-  </div>
+    [Accéder à la rubrique](maths_premiere/)
+
+-   ## Maths en Terminale
+
+    Cours, exercices et préparation au bac.
+
+    [Accéder à la rubrique](maths_terminale/)
+
+-   ## NSI
+
+    Cours, défis, épreuve pratique et sujets bac.
+
+    [Accéder à la rubrique](nsi/)
+
 </div>

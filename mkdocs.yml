@@ -1,4 +1,4 @@
-site_name: NSI – Première
+site_name: Ressources Lycée Fénelon
 
 theme:
   name: material
@@ -14,121 +14,133 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - index.md 
-  - COURS:
-    - Sommaire: cours/index.md
-    - "Chapitre 1 – Au cœur de l’ordinateur":
-      - cours/chap01_ordinateur/index.md
-      - "Prérequis": cours/chap01_ordinateur/prerequis/index.md
-      - "Activités": cours/chap01_ordinateur/activites/index.md
-      - "Cours": cours/chap01_ordinateur/cours/index.md
-      - "Exercices": cours/chap01_ordinateur/exercices/index.md
+  - Accueil: index.md
 
-    - "Chapitre 2 – Commencer à programmer":
-      - cours/chap02_programmer/index.md
-      - "Prérequis": cours/chap02_programmer/prerequis/index.md
-      - "Activités": cours/chap02_programmer/activites/index.md
-      - "Cours": cours/chap02_programmer/cours/index.md
-      - "Exercices": cours/chap02_programmer/exercices/index.md
+  - Maths en Première:
+    - Accueil: maths_premiere/index.md
 
-    - "Chapitre 3 – Un peu d’interaction":
-      - cours/chap03_interaction/index.md
-      - "Prérequis": cours/chap03_interaction/prerequis/index.md
-      - "Activités": cours/chap03_interaction/activites/index.md
-      - "Cours": cours/chap03_interaction/cours/index.md
-      - "Exercices": cours/chap03_interaction/exercices/index.md
+  - Maths en Terminale:
+    - Accueil: maths_terminale/index.md
 
-    - "Chapitre 4 – Types structurés":
-      - cours/chap04_types_structures/index.md
-      - "Prérequis": cours/chap04_types_structures/prerequis/index.md
-      - "Activités": cours/chap04_types_structures/activites/index.md
-      - "Cours": cours/chap04_types_structures/cours/index.md
-      - "Exercices": cours/chap04_types_structures/exercices/index.md
+  - NSI:
+    - Accueil: nsi/index.md
 
-    - "Chapitre 5 – Les tableaux":
-      - cours/chap05_tableaux/index.md
-      - "Prérequis": cours/chap05_tableaux/prerequis/index.md
-      - "Activités": cours/chap05_tableaux/activites/index.md
-      - "Cours": cours/chap05_tableaux/cours/index.md
-      - "Exercices": cours/chap05_tableaux/exercices/index.md
+    - COURS:
+      - Sommaire: nsi/cours/index.md
 
-    - "Chapitre 6 – Trier et chercher dans les tableaux":
-      - cours/chap06_trier_chercher/index.md
-      - "Prérequis": cours/chap06_trier_chercher/prerequis/index.md
-      - "Activités": cours/chap06_trier_chercher/activites/index.md
-      - "Cours": cours/chap06_trier_chercher/cours/index.md
-      - "Exercices": cours/chap06_trier_chercher/exercices/index.md
-      - "Corrigés": cours/chap06_trier_chercher/exercices/corriges.md
-      - "Révisions": cours/chap06_trier_chercher/revision/index.md
+      - "Chapitre 1 – Au cœur de l’ordinateur":
+        - nsi/cours/chap01_ordinateur/index.md
+        - "Prérequis": nsi/cours/chap01_ordinateur/prerequis/index.md
+        - "Activités": nsi/cours/chap01_ordinateur/activites/index.md
+        - "Cours": nsi/cours/chap01_ordinateur/cours/index.md
+        - "Exercices": nsi/cours/chap01_ordinateur/exercices/index.md
 
-    - "Chapitre 7 – Données en tables":
-      - cours/chap07_donnees_tables/index.md
-      - "Prérequis": cours/chap07_donnees_tables/prerequis/index.md
-      - "Activités": cours/chap07_donnees_tables/activites/index.md
-      - "Cours": cours/chap07_donnees_tables/cours/index.md
-      - "Exercices": cours/chap07_donnees_tables/exercices/index.md
+      - "Chapitre 2 – Commencer à programmer":
+        - nsi/cours/chap02_programmer/index.md
+        - "Introduction": nsi/cours/chap02_programmer/introduction/index.md
+        - "Activités": nsi/cours/chap02_programmer/activites/index.md
+        - "Cours": nsi/cours/chap02_programmer/cours/index.md
+        - "qcm": nsi/cours/chap02_programmer/qcm/index.md
+        - "Exercices": nsi/cours/chap02_programmer/exercices/index.md
 
-    - "Chapitre 8 – Spécifier et tester":
-      - cours/chap08_specifier_tester/index.md
-      - "Prérequis": cours/chap08_specifier_tester/prerequis/index.md
-      - "Activités": cours/chap08_specifier_tester/activites/index.md
-      - "Cours": cours/chap08_specifier_tester/cours/index.md
-      - "Exercices": cours/chap08_specifier_tester/exercices/index.md
+      - "Chapitre 3 – Un peu d’interaction":
+        - nsi/cours/chap03_interaction/index.md
+        - "Prérequis": nsi/cours/chap03_interaction/prerequis/index.md
+        - "Activités": nsi/cours/chap03_interaction/activites/index.md
+        - "Cours": nsi/cours/chap03_interaction/cours/index.md
+        - "Exercices": nsi/cours/chap03_interaction/exercices/index.md
 
-    - "Chapitre 9 – Des bits aux données":
-      - cours/chap09_bits_donnees/index.md
-      - "Prérequis": cours/chap09_bits_donnees/prerequis/index.md
-      - "Activités": cours/chap09_bits_donnees/activites/index.md
-      - "Cours": cours/chap09_bits_donnees/cours/index.md
-      - "Exercices": cours/chap09_bits_donnees/exercices/index.md
+      - "Chapitre 4 – Types structurés":
+        - nsi/cours/chap04_types_structures/index.md
+        - "Prérequis": nsi/cours/chap04_types_structures/prerequis/index.md
+        - "Activités": nsi/cours/chap04_types_structures/activites/index.md
+        - "Cours": nsi/cours/chap04_types_structures/cours/index.md
+        - "Exercices": nsi/cours/chap04_types_structures/exercices/index.md
 
-    - "Chapitre 10 – Réseaux":
-      - cours/chap10_reseaux/index.md
-      - "Prérequis": cours/chap10_reseaux/prerequis/index.md
-      - "Activités": cours/chap10_reseaux/activites/index.md
-      - "Cours": cours/chap10_reseaux/cours/index.md
-      - "Exercices": cours/chap10_reseaux/exercices/index.md
+      - "Chapitre 5 – Les tableaux":
+        - nsi/cours/chap05_tableaux/index.md
+        - "Prérequis": nsi/cours/chap05_tableaux/prerequis/index.md
+        - "Activités": nsi/cours/chap05_tableaux/activites/index.md
+        - "Cours": nsi/cours/chap05_tableaux/cours/index.md
+        - "Exercices": nsi/cours/chap05_tableaux/exercices/index.md
 
-    - "Chapitre 11 – Interaction sur le Web":
-      - cours/chap11_web/index.md
-      - "Prérequis": cours/chap11_web/prerequis/index.md
-      - "Activités": cours/chap11_web/activites/index.md
-      - "Cours": cours/chap11_web/cours/index.md
-      - "Exercices": cours/chap11_web/exercices/index.md
+      - "Chapitre 6 – Trier et chercher dans les tableaux":
+        - nsi/cours/chap06_trier_chercher/index.md
+        - "Prérequis": nsi/cours/chap06_trier_chercher/prerequis/index.md
+        - "Activités": nsi/cours/chap06_trier_chercher/activites/index.md
+        - "Cours": nsi/cours/chap06_trier_chercher/cours/index.md
+        - "Exercices": nsi/cours/chap06_trier_chercher/exercices/index.md
+        - "Corrigés": nsi/cours/chap06_trier_chercher/exercices/cachecorriges.md
+        - "Révisions": nsi/cours/chap06_trier_chercher/revision/index.md
 
-    - "Chapitre 12 – Systèmes et périphériques":
-      - cours/chap12_systemes_peripheriques/index.md
-      - "Prérequis": cours/chap12_systemes_peripheriques/prerequis/index.md
-      - "Activités": cours/chap12_systemes_peripheriques/activites/index.md
-      - "Cours": cours/chap12_systemes_peripheriques/cours/index.md
-      - "Exercices": cours/chap12_systemes_peripheriques/exercices/index.md
+      - "Chapitre 7 – Données en tables":
+        - nsi/cours/chap07_donnees_tables/index.md
+        - "Prérequis": nsi/cours/chap07_donnees_tables/prerequis/index.md
+        - "Activités": nsi/cours/chap07_donnees_tables/activites/index.md
+        - "Cours": nsi/cours/chap07_donnees_tables/cours/index.md
+        - "Exercices": nsi/cours/chap07_donnees_tables/exercices/index.md
 
-    - "Chapitre 13 – Algorithmes avancés":
-      - cours/chap13_algorithmes_avances/index.md
-      - "Prérequis": cours/chap13_algorithmes_avances/prerequis/index.md
-      - "Activités": cours/chap13_algorithmes_avances/activites/index.md
-      - "Cours": cours/chap13_algorithmes_avances/cours/index.md
-      - "Exercices": cours/chap13_algorithmes_avances/exercices/index.md
+      - "Chapitre 8 – Spécifier et tester":
+        - nsi/cours/chap08_specifier_tester/index.md
+        - "Prérequis": nsi/cours/chap08_specifier_tester/prerequis/index.md
+        - "Activités": nsi/cours/chap08_specifier_tester/activites/index.md
+        - "Cours": nsi/cours/chap08_specifier_tester/cours/index.md
+        - "Exercices": nsi/cours/chap08_specifier_tester/exercices/index.md
 
-    - "Chapitre 14 – Au-delà de Python":
-      - cours/chap14_au_dela_python/index.md
-      - "Prérequis": cours/chap14_au_dela_python/prerequis/index.md
-      - "Activités": cours/chap14_au_dela_python/activites/index.md
-      - "Cours": cours/chap14_au_dela_python/cours/index.md
-      - "Exercices": cours/chap14_au_dela_python/exercices/index.md
+      - "Chapitre 9 – Des bits aux données":
+        - nsi/cours/chap09_bits_donnees/index.md
+        - "Prérequis": nsi/cours/chap09_bits_donnees/prerequis/index.md
+        - "Activités": nsi/cours/chap09_bits_donnees/activites/index.md
+        - "Cours": nsi/cours/chap09_bits_donnees/cours/index.md
+        - "Exercices": nsi/cours/chap09_bits_donnees/exercices/index.md
 
-  - Défis:
-    - defis/index.md
+      - "Chapitre 10 – Réseaux":
+        - nsi/cours/chap10_reseaux/index.md
+        - "Prérequis": nsi/cours/chap10_reseaux/prerequis/index.md
+        - "Activités": nsi/cours/chap10_reseaux/activites/index.md
+        - "Cours": nsi/cours/chap10_reseaux/cours/index.md
+        - "Exercices": nsi/cours/chap10_reseaux/exercices/index.md
 
-  - Épreuve pratique:
-    - epreuve_pratique/index.md
+      - "Chapitre 11 – Interaction sur le Web":
+        - nsi/cours/chap11_web/index.md
+        - "Prérequis": nsi/cours/chap11_web/prerequis/index.md
+        - "Activités": nsi/cours/chap11_web/activites/index.md
+        - "Cours": nsi/cours/chap11_web/cours/index.md
+        - "Exercices": nsi/cours/chap11_web/exercices/index.md
 
-  - Sujets BAC:
-    - sujets_bac/index.md
+      - "Chapitre 12 – Systèmes et périphériques":
+        - nsi/cours/chap12_systemes_peripheriques/index.md
+        - "Prérequis": nsi/cours/chap12_systemes_peripheriques/prerequis/index.md
+        - "Activités": nsi/cours/chap12_systemes_peripheriques/activites/index.md
+        - "Cours": nsi/cours/chap12_systemes_peripheriques/cours/index.md
+        - "Exercices": nsi/cours/chap12_systemes_peripheriques/exercices/index.md
 
+      - "Chapitre 13 – Algorithmes avancés":
+        - nsi/cours/chap13_algorithmes_avances/index.md
+        - "Prérequis": nsi/cours/chap13_algorithmes_avances/prerequis/index.md
+        - "Activités": nsi/cours/chap13_algorithmes_avances/activites/index.md
+        - "Cours": nsi/cours/chap13_algorithmes_avances/cours/index.md
+        - "Exercices": nsi/cours/chap13_algorithmes_avances/exercices/index.md
 
+      - "Chapitre 14 – Au-delà de Python":
+        - nsi/cours/chap14_au_dela_python/index.md
+        - "Prérequis": nsi/cours/chap14_au_dela_python/prerequis/index.md
+        - "Activités": nsi/cours/chap14_au_dela_python/activites/index.md
+        - "Cours": nsi/cours/chap14_au_dela_python/cours/index.md
+        - "Exercices": nsi/cours/chap14_au_dela_python/exercices/index.md
+
+    - Défis:
+      - nsi/defis/index.md
+
+    - Épreuve pratique:
+      - nsi/epreuve_pratique/index.md
+
+    - Sujets BAC:
+      - nsi/sujets_bac/index.md
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
-
+  - pymdownx.superfences
