@@ -30,7 +30,7 @@ nav:
 
       - "Chapitre 1 – Au cœur de l’ordinateur":
         - nsi/cours/chap01_ordinateur/index.md
-        - "Prérequis": nsi/cours/chap01_ordinateur/prerequis/index.md
+        - "qcm": nsi/cours/chap01_ordinateur/qcm/index.md
         - "Activités": nsi/cours/chap01_ordinateur/activites/index.md
         - "Cours": nsi/cours/chap01_ordinateur/cours/index.md
         - "Exercices": nsi/cours/chap01_ordinateur/exercices/index.md
@@ -70,7 +70,7 @@ nav:
         - "Activités": nsi/cours/chap06_trier_chercher/activites/index.md
         - "Cours": nsi/cours/chap06_trier_chercher/cours/index.md
         - "Exercices": nsi/cours/chap06_trier_chercher/exercices/index.md
-        - "Corrigés": nsi/cours/chap06_trier_chercher/exercices/cachecorriges.md
+        - "Corrigés": nsi/cours/chap06_trier_chercher/exercices/corriges.md
         - "Révisions": nsi/cours/chap06_trier_chercher/revision/index.md
 
       - "Chapitre 7 – Données en tables":
