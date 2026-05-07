@@ -1,4 +1,4 @@
-# chap02_programmer
+# Programmer
 ## Le pitch
 
 Les langages d’assemblage, qui permettent de commander « directement » le fonctionnement du processeur et de la mémoire d’un ordinateur, sont appelés des **langages de bas niveau**. Ils sont composés d’instructions élémentaires très simples qui sont exécutées de manière séquentielle, l’une après l’autre, par l’ordinateur : on parle de **programmation impérative**. Cependant, ces langages sont difficiles à manipuler pour les humains.
