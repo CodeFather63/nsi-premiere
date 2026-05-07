@@ -364,8 +364,6 @@ if 'ipykernel' in sys.modules:
 else:	
     # Eviter le bug qui plante MacOS avec TkInter et Python3 !
     import platform
-    if platform.mac_ver()[0] != '' and platform.python_version_tuple()[0] != '2':
-        exit('TkInter est incompatible avec Python3 sur ce Macintosh. Utiliser Python 2.x')
 
     # Importer la bonne version de TkInter
     if (platform.python_version_tuple()[0] == '2'):

@@ -3964,13 +3964,16 @@
 
 <h1 id="controler-la-tortue">Contrôler la tortue ...</h1>
 <h2 id="objectifs">OBJECTIFS</h2>
-<p>Dans l’activité du chapitre 2, nous avons créé une fonction <code>polygone</code> qui trace un polygone à l’aide de la bibliothèque <code>turtle</code>. Nous allons maintenant créer une interface graphique de la page 49, pour utiliser cette fonction en cliquant simplement sur un bouton.</p>
+<p>Dans l’activité du chapitre 2, nous avons créé une fonction <code>polygone</code> qui trace un polygone à l’aide de la bibliothèque <code>turtle</code>. Nous allons maintenant créer une interface graphique pour utiliser cette fonction en cliquant simplement sur un bouton.</p>
 <h2 id="des-boutons-pour-lancer-des-fonctions">🔘 Des boutons pour lancer des fonctions</h2>
-<p>Pour commencer, nous créons un bouton pour dessiner un polygone. Nous utilisons la fonction <code>button</code> de la bibliothèque <a href="nsi_ui.py"><code>nsi_ui</code></a>, créée spécialement pour ce manuel. Elle prend pour paramètres le titre du bouton et la fonction Python à appeler lorsqu’on clique dessus.</p>
+<p>Pour commencer, nous créons un bouton pour dessiner un polygone. Nous utilisons la fonction <code>button</code> de la bibliothèque <a href="nsi_ui.py"><code>nsi_ui</code></a>, créée spécialement pour ce manuel (ou site). Elle prend pour paramètres le titre du bouton et la fonction Python à appeler lorsqu’on clique dessus.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">turtle</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">nsi_ui</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
-
-<span class="c1"># insérer ici la fonction polygone du chapitre 2</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">polygone</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">cote</span><span class="p">):</span>
+<span class="sd">&quot;&quot;&quot; Tracer un polygone a n cotes de longueur &quot;cote&quot; &quot;&quot;&quot;</span> 
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">forward</span><span class="p">(</span><span class="n">cote</span><span class="p">)</span> 
+        <span class="n">right</span><span class="p">(</span><span class="mi">360</span><span class="o">/</span><span class="n">n</span><span class="p">)</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">creer_polygone</span><span class="p">():</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot; Fonction sans paramètres que l’on va associer au bouton &quot;&quot;&quot;</span>
@@ -3978,6 +3981,25 @@
 
 <span class="n">button</span><span class="p">(</span><span class="s2">&quot;Polygone&quot;</span><span class="p">,</span> <span class="n">creer_polygone</span><span class="p">)</span>  <span class="c1"># bouton pour faire le dessin</span>
 </code></pre></div>
+<p>QUESTION 1 : Créer un deuxième bouton pour effacer l'écran (fonction <code>clear</code> de la <a href="https://docs.python.org/fr/3/library/turtle.html">bibliothèque Turtle</a>)</p>
+<h1 id="des-tirettes-pour-controler-les-parametres">🐢 Des tirettes pour contrôler les paramètres</h1>
+<p>Pour contrôler la taille du pentagone, on crée une tirette à l’aide de la fonction <code>slider(...)</code> de la bibliothèque <code>nsi_ui</code>. La fonction <code>get_int</code> retourne la valeur de la tirette. On modifie la fonction <code>creer_polygone</code> pour utiliser la valeur de la tirette :</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># paramètres de slider() : titre du bouton, valeurs min et max</span>
+<span class="n">tirette_taille</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="s2">&quot;Taille&quot;</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">creer_polygone</span><span class="p">():</span>
+    <span class="n">polygone</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">get_int</span><span class="p">(</span><span class="n">tirette_taille</span><span class="p">))</span>
+</code></pre></div>
+<p>• Créer une seconde tirette pour régler le nombre de côtés du polygone, et modifier la fonction <code>creer_polygone</code> en conséquence.</p>
+<p>L’interface finale a l’aspect suivant : <img alt="img" src="interface.png" /></p>
+<hr />
+<h1 id="piloter-la-tortue-au-clavier">🐢 Piloter la tortue au clavier</h1>
+<p>Le code suivant fait avancer la tortue en appuyant sur la flèche vers le haut (<code>"Up"</code>). La fonction <code>onkey</code> spécifie ce que le programme doit faire lorsqu’il détecte l’appui d’une touche du clavier.</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">avance</span><span class="p">():</span>
+    <span class="n">forward</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">onkey</span><span class="p">(</span><span class="n">avance</span><span class="p">,</span> <span class="s2">&quot;Up&quot;</span><span class="p">)</span>  <span class="c1"># paramètres : fonction à appeler, nom de la touche</span>
+</code></pre></div>
+<p>• Compléter le programme ci-dessus pour faire tourner la tortue à angles droits avec les flèches droite (<code>"Right"</code>) et gauche (`"Left").</p>
 
 
 
