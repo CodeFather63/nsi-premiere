@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#activites" class="md-skip">
+        <a href="#controler-la-tortue" class="md-skip">
           Aller au contenu
         </a>
       
@@ -920,7 +920,7 @@
   <span class="md-ellipsis">
     
   
-    chap02_programmer
+    Programmer
   
 
     
@@ -1150,7 +1150,7 @@
   <span class="md-ellipsis">
     
   
-    chap03_interaction
+    Un peu d'interaction
   
 
     
@@ -1208,6 +1208,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activités
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1224,6 +1242,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OBJECTIFS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#des-boutons-pour-lancer-des-fonctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔘 Des boutons pour lancer des fonctions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3858,6 +3917,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OBJECTIFS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#des-boutons-pour-lancer-des-fonctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔘 Des boutons pour lancer des fonctions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3873,7 +3962,19 @@
 
 
 
-<h1 id="activites">activites</h1>
+<h1 id="controler-la-tortue">Contrôler la tortue ...</h1>
+<h2 id="objectifs">OBJECTIFS</h2>
+<p>Dans l’activité du chapitre 2, nous avons créé une fonction <code>polygone</code> qui trace un polygone à l’aide de la bibliothèque <code>turtle</code>. Nous allons maintenant créer une interface graphique de la page 49, pour utiliser cette fonction en cliquant simplement sur un bouton.</p>
+<h2 id="des-boutons-pour-lancer-des-fonctions">🔘 Des boutons pour lancer des fonctions</h2>
+<p>Pour commencer, nous créons un bouton pour dessiner un polygone. Nous utilisons la fonction <code>button</code> de la bibliothèque <a href="nsi_ui.py"><code>nsi_ui</code></a>, créée spécialement pour ce manuel. Elle prend pour paramètres le titre du bouton et la fonction Python à appeler lorsqu’on clique dessus.</p>
+<p>```python
+from turtle import *
+from nsi_ui import *</p>
+<h1 id="inserer-ici-la-fonction-polygone-du-chapitre-2">insérer ici la fonction polygone du chapitre 2</h1>
+<p>def creer_polygone():
+    """ Fonction sans paramètres que l’on va associer au bouton """
+    polygone(5, 60)</p>
+<p>button("Polygone", creer_polygone)  # bouton pour faire le dessin</p>
 
 
 
