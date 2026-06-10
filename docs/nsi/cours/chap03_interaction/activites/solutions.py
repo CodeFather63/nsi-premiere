@@ -26,7 +26,8 @@ button("Efface l'écran", effacer_ecran)  # bouton pour effacer le dessin
 
 def gauche():
     left(10)
-def droite():
+
+def droite():
     right(10)
 def avance():
     forward(10)

@@ -53,8 +53,8 @@ nav:
       - "Chapitre 4 – Types structurés":
         - nsi/cours/chap04_types_structures/index.md
         - "Prérequis": nsi/cours/chap04_types_structures/prerequis/index.md
-        - "Activités": nsi/cours/chap04_types_structures/activites/index.md
         - "Cours": nsi/cours/chap04_types_structures/cours/index.md
+        - "Qcm": nsi/cours/chap04_types_structures/qcm/index.md
         - "Exercices": nsi/cours/chap04_types_structures/exercices/index.md
 
       - "Chapitre 5 – Les tableaux":
