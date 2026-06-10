@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../prerequis/">
+        <link rel="prev" href="../cours/">
       
       
-        <link rel="next" href="../cours/">
+        <link rel="next" href="../exercices/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>Activités - Ressources Lycée Fénelon</title>
+        <title>Qcm - Ressources Lycée Fénelon</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#activites" class="md-skip">
+        <a href="#qcm-types-et-structures" class="md-skip">
           Aller au contenu
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Activités
+              Qcm
             
           </span>
         </div>
@@ -1350,7 +1350,7 @@
   <span class="md-ellipsis">
     
   
-    chap04_types_structures
+    Le pitch
   
 
     
@@ -1396,44 +1396,6 @@
                 
   
   
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Activités
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
   
   
     <li class="md-nav__item">
@@ -1453,6 +1415,44 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Qcm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
     </li>
   
 
@@ -3873,7 +3873,201 @@
 
 
 
-<h1 id="activites">activites</h1>
+<h1 id="qcm-types-et-structures">QCM — Types et structures</h1>
+<details class="question" open="open">
+<summary>Question 1</summary>
+<p>Quelles sont les valeurs de <code>a</code> et <code>b</code> à la fin du programme suivant ?</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li>a) <code>a = 10</code> et <code>b = 10</code></li>
+<li>b) <code>a = 10</code> et <code>b = 20</code></li>
+<li>c) <code>a = 20</code> et <code>b = 10</code></li>
+<li>d) <code>a = 20</code> et <code>b = 20</code></li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>c) <code>a = 20</code> et <code>b = 10</code></strong></p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 2</summary>
+<p>Quelles expressions parmi les suivantes ne sont pas des tuples Python ?</p>
+<ul>
+<li>a) <code>a = ('Bonjour', 42)</code></li>
+<li>b) <code>a, b = ('Bonjour', 42)</code></li>
+<li>c) <code>a = (10,)</code></li>
+<li>d) <code>a = ('John', (10, "Pique"))</code></li>
+<li>e) <code>a = ['Bonjour', 42]</code></li>
+<li>f) <code>a = (10)</code></li>
+<li>g) <code>a = {'Bonjour', 42}</code></li>
+<li>h) <code>a = ()</code></li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>b), e), f) et g)</strong></p>
+<ul>
+<li>b) est une affectation multiple, pas un tuple</li>
+<li>e) est un tableau (liste)</li>
+<li>f) est simplement l'entier 10 entre parenthèses</li>
+<li>g) est un ensemble (<code>set</code>)</li>
+</ul>
+<p>On peut vérifier avec ce programme Python :</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Bonjour&#39;</span><span class="p">,</span> <span class="mi">42</span><span class="p">)</span>
+
+<span class="n">expressions</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;a) a = (&#39;Bonjour&#39;, 42)&quot;</span><span class="p">:</span>         <span class="p">(</span><span class="s1">&#39;Bonjour&#39;</span><span class="p">,</span> <span class="mi">42</span><span class="p">),</span>
+    <span class="s2">&quot;b) a, b = (&#39;Bonjour&#39;, 42)&quot;</span><span class="p">:</span>      <span class="n">b</span><span class="p">,</span>
+    <span class="s2">&quot;c) a = (10,)&quot;</span><span class="p">:</span>                   <span class="p">(</span><span class="mi">10</span><span class="p">,),</span>
+    <span class="s2">&quot;d) a = (&#39;John&#39;, (10, &#39;Pique&#39;))&quot;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;Pique&quot;</span><span class="p">)),</span>
+    <span class="s2">&quot;e) a = [&#39;Bonjour&#39;, 42]&quot;</span><span class="p">:</span>         <span class="p">[</span><span class="s1">&#39;Bonjour&#39;</span><span class="p">,</span> <span class="mi">42</span><span class="p">],</span>
+    <span class="s2">&quot;f) a = (10)&quot;</span><span class="p">:</span>                    <span class="p">(</span><span class="mi">10</span><span class="p">),</span>
+    <span class="s2">&quot;g) a = {&#39;Bonjour&#39;, 42}&quot;</span><span class="p">:</span>         <span class="p">{</span><span class="s1">&#39;Bonjour&#39;</span><span class="p">,</span> <span class="mi">42</span><span class="p">},</span>
+    <span class="s2">&quot;h) a = ()&quot;</span><span class="p">:</span>                      <span class="p">(),</span>
+<span class="p">}</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="s1">&#39;Expression&#39;</span><span class="si">:</span><span class="s2">&lt;35</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="s1">&#39;Valeur&#39;</span><span class="si">:</span><span class="s2">&lt;25</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="s1">&#39;Type&#39;</span><span class="si">:</span><span class="s2">&lt;10</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="s1">&#39;Tuple ?&#39;</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span> <span class="o">*</span> <span class="mi">85</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">desc</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">expressions</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">est_tuple</span> <span class="o">=</span> <span class="s2">&quot;✅ OUI&quot;</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">val</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">)</span> <span class="k">else</span> <span class="s2">&quot;❌ NON&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">desc</span><span class="si">:</span><span class="s2">&lt;35</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="si">:</span><span class="s2">&lt;25</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="si">:</span><span class="s2">&lt;10</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">est_tuple</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 3</summary>
+<p>Quelle est la valeur de <code>a</code> à la fin du programme suivant ?</p>
+<div class="highlight"><pre><span></span><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="p">((</span><span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;31&quot;</span><span class="p">),</span> <span class="p">[</span><span class="kc">False</span><span class="p">])</span>
+<span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="o">=</span> <span class="n">x</span>
+<span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="n">v</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li>a) <code>(u, "31")</code></li>
+<li>b) <code>(12,)</code></li>
+<li>c) <code>False</code></li>
+<li>d) <code>"31"</code></li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>d) <code>"31"</code></strong></p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 4</summary>
+<p>Comment accéder sans erreur au 5e élément d'un tableau <code>t</code> dont on ne connaît pas encore la taille ?</p>
+<ul>
+<li>a) <code>a = t[5]</code></li>
+<li>b) <code>if len(t) &gt; 4: a = t[4]</code></li>
+<li>c) <code>if len(t) &gt;= 5: a = t[4]</code></li>
+<li>d) <code>if len(t) &gt; 4: a = t[5]</code></li>
+<li>e) <code>if len(t) == 5: a = t[4]</code></li>
+<li>f) <code>a = t[4]</code></li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>b) et c)</strong></p>
+<p>Le 5e élément est à l'indice 4. Il faut vérifier que le tableau contient au moins 5 éléments (<code>len(t) &gt; 4</code> ou <code>len(t) &gt;= 5</code>), puis accéder à <code>t[4]</code>.</p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 5</summary>
+<p>Quelle instruction affiche le premier et le dernier éléments du tableau <code>t</code> ?</p>
+<ul>
+<li>a) <code>print(t[0], t[len(t)])</code></li>
+<li>b) <code>print(t[0], t[len(t)-1])</code></li>
+<li>c) <code>print(t[1], t[len(t)-1])</code></li>
+<li>d) <code>print(t[1], t[len(t)])</code></li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>b) <code>print(t[0], t[len(t)-1])</code></strong></p>
+<p>Le premier élément est à l'indice 0, et le dernier à l'indice <code>len(t)-1</code>.</p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 6</summary>
+<p>Qu'affiche le programme suivant ?</p>
+<div class="highlight"><pre><span></span><code><span class="n">t</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;un&quot;</span><span class="p">,</span> <span class="s2">&quot;trois&quot;</span><span class="p">,</span> <span class="s2">&quot;deux&quot;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+</code></pre></div>
+<ul>
+<li>a) un deux</li>
+<li>b) un trois</li>
+<li>c) deux trois</li>
+<li>d) trois deux</li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>d) trois deux</strong></p>
+<p><code>t[1]</code> vaut <code>"trois"</code> et <code>t[2]</code> vaut <code>"deux"</code>.</p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 7</summary>
+<p>Qu'affiche le programme suivant ?</p>
+<div class="highlight"><pre><span></span><code><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="s2">&quot;un&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span><span class="s2">&quot;trois&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span><span class="s2">&quot;deux&quot;</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">d</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+</code></pre></div>
+<ul>
+<li>a) un deux</li>
+<li>b) un trois</li>
+<li>c) deux trois</li>
+<li>d) trois deux</li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>a) un deux</strong></p>
+<p><code>d[1]</code> vaut <code>"un"</code> et <code>d[2]</code> vaut <code>"deux"</code>.</p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 8</summary>
+<p>Quelle(s) expression(s) a (ont) pour valeur <code>('1', 1)</code> ?</p>
+<div class="highlight"><pre><span></span><code><span class="n">v</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">},</span>
+     <span class="p">{</span><span class="s1">&#39;2&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;0&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}]</span>
+</code></pre></div>
+<ul>
+<li>a) <code>v[1]['1']</code></li>
+<li>b) <code>('1', v[1]['1'])</code></li>
+<li>c) <code>(v[0]['1'], v[1]['1'])</code></li>
+<li>d) <code>(v[0][0], v[1][1])</code></li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>b) <code>('1', v[1]['1'])</code></strong></p>
+<p><code>v[1]['1']</code> vaut <code>1</code>, donc <code>('1', v[1]['1'])</code> vaut bien <code>('1', 1)</code>.</p>
+</details>
+</details>
+<hr />
+<details class="question" open="open">
+<summary>Question 9</summary>
+<p>Quelle est la valeur de <code>a[1]</code> à l'issue de l'exécution du programme suivant ?</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
+<span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</code></pre></div>
+<ul>
+<li>a) 10</li>
+<li>b) 20</li>
+<li>c) 30</li>
+<li>d) 2</li>
+</ul>
+<details class="success">
+<summary>Réponse</summary>
+<p><strong>d) 2</strong></p>
+<p><code>b = a</code> crée un alias : <code>b</code> et <code>a</code> référencent le même tableau. La modification <code>b[1] = 2</code> change donc aussi <code>a[1]</code>. Le <code>a.copy()</code> final crée une copie, mais <code>a[1]</code> vaut déjà <code>2</code> à ce stade.</p>
+</details>
+</details>
 
 
 

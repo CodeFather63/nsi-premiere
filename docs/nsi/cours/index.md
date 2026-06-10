@@ -7,3 +7,5 @@ Choisis un chapitre dans le menu à gauche pour le cours
 	+ Chapitre 2 : Commencer à programmer 
 	+ chap02_programmer
 	+ Introduction 
+
+- Semaine 2 :
