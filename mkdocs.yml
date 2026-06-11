@@ -56,6 +56,7 @@ nav:
         - "Cours": nsi/cours/chap04_types_structures/cours/index.md
         - "Qcm": nsi/cours/chap04_types_structures/qcm/index.md
         - "Exercices": nsi/cours/chap04_types_structures/exercices/index.md
+        - "Activités": nsi/cours/chap04_types_structures/activites/index.md
 
       - "Chapitre 5 – Les tableaux":
         - nsi/cours/chap05_tableaux/index.md
