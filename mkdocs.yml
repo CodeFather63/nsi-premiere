@@ -17,7 +17,7 @@ nav:
   - Accueil: index.md
 
   - Maths en Première:
-      - Accueil: maths_premiere/index.md
+      - Cahier de texte: maths_premiere/index.md
       - Chapitre 1: maths_premiere/CH1/index.md
       - Chapitre 2: maths_premiere/CH2/index.md
       - Chapitre 3: maths_premiere/CH3/index.md
@@ -35,7 +35,22 @@ nav:
       - Chapitre 15: maths_premiere/CH15/index.md
 
   - Maths en Terminale:
-    - Accueil: maths_terminale/index.md
+      - Cahier de texte: maths_terminale/index.md
+      - Chapitre 1: maths_terminale/CH1/index.md
+      - Chapitre 2: maths_terminale/CH2/index.md
+      - Chapitre 3: maths_terminale/CH3/index.md
+      - Chapitre 4: maths_terminale/CH4/index.md
+      - Chapitre 5: maths_terminale/CH5/index.md
+      - Chapitre 6: maths_terminale/CH6/index.md
+      - Chapitre 7: maths_terminale/CH7/index.md
+      - Chapitre 8: maths_terminale/CH8/index.md
+      - Chapitre 9: maths_terminale/CH9/index.md
+      - Chapitre 10: maths_terminale/CH10/index.md
+      - Chapitre 11: maths_terminale/CH11/index.md
+      - Chapitre 12: maths_terminale/CH12/index.md
+      - Chapitre 13: maths_terminale/CH13/index.md
+      - Chapitre 14: maths_terminale/CH14/index.md
+      - Chapitre 15: maths_terminale/CH15/index.md
 
   - NSI:
     - Accueil: nsi/index.md

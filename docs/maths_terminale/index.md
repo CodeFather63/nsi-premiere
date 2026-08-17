@@ -1,3 +1,7 @@
-# Maths en Terminale
+# Mathématiques - Terminales
 
-Bienvenue dans la rubrique **Maths en Terminale**.
+Bienvenue dans le cours de mathématiques de terminale.
+
+# Cahier de Texte
+
+## Semaine 1 : 
