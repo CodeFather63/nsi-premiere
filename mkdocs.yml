@@ -17,7 +17,22 @@ nav:
   - Accueil: index.md
 
   - Maths en Première:
-    - Accueil: maths_premiere/index.md
+      - Accueil: maths_premiere/index.md
+      - Chapitre 1: maths_premiere/CH1/index.md
+      - Chapitre 2: maths_premiere/CH2/index.md
+      - Chapitre 3: maths_premiere/CH3/index.md
+      - Chapitre 4: maths_premiere/CH4/index.md
+      - Chapitre 5: maths_premiere/CH5/index.md
+      - Chapitre 6: maths_premiere/CH6/index.md
+      - Chapitre 7: maths_premiere/CH7/index.md
+      - Chapitre 8: maths_premiere/CH8/index.md
+      - Chapitre 9: maths_premiere/CH9/index.md
+      - Chapitre 10: maths_premiere/CH10/index.md
+      - Chapitre 11: maths_premiere/CH11/index.md
+      - Chapitre 12: maths_premiere/CH12/index.md
+      - Chapitre 13: maths_premiere/CH13/index.md
+      - Chapitre 14: maths_premiere/CH14/index.md
+      - Chapitre 15: maths_premiere/CH15/index.md
 
   - Maths en Terminale:
     - Accueil: maths_terminale/index.md
