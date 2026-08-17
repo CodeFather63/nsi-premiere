@@ -56,7 +56,7 @@ nav:
     - Accueil: nsi/index.md
 
     - COURS:
-      - Sommaire: nsi/cours/index.md
+      - Cahier de texte: nsi/cours/index.md
 
       - "Chapitre 1 – Au cœur de l’ordinateur":
         - nsi/cours/chap01_ordinateur/index.md
