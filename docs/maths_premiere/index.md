@@ -4,4 +4,4 @@ Bienvenue dans le cours de mathématiques de première.
 
 # Cahier de Texte
 
-## Semaine 1 : 
+Jeudi 3 Septembre : Présentations puis CH1 : Probabilites_conditionnelles

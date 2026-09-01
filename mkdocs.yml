@@ -56,8 +56,7 @@ nav:
     - Accueil: nsi/index.md
 
     - COURS:
-      - Cahier de texte: nsi/cours/index.md
-
+      
       - "Chapitre 1 – Au cœur de l’ordinateur":
         - nsi/cours/chap01_ordinateur/index.md
         - "qcm": nsi/cours/chap01_ordinateur/qcm/index.md
@@ -160,14 +159,11 @@ nav:
         - "Cours": nsi/cours/chap14_au_dela_python/cours/index.md
         - "Exercices": nsi/cours/chap14_au_dela_python/exercices/index.md
 
-    - Défis:
-      - nsi/defis/index.md
+      - Défis: nsi/defis/index.md
 
-    - Épreuve pratique:
-      - nsi/epreuve_pratique/index.md
+      - Épreuve pratique :  nsi/epreuve_pratique/index.md
 
-    - Sujets BAC:
-      - nsi/sujets_bac/index.md
+      - Sujets BAC: nsi/sujets_bac/index.md
 
 markdown_extensions:
   - admonition
