@@ -1,8 +1,5 @@
 # Chapitre 1 — Probabilités conditionnelles
 
-*Lycée Fénelon · Mathématiques Première*
-
-Deux fiches de cours à télécharger : les rappels de probabilités (Seconde) et le chapitre complet sur les probabilités conditionnelles, arbres pondérés et indépendance.
 
 ## Téléchargements
 
