@@ -1,8 +1,17 @@
+# Mathématiques - Première NSI
 
-# NSI - Première
+## Cahier de texte
 
-Bienvenue dans le cours de NSI de première.
+### vendredi 11 septembre
 
-# Cahier de Texte
 
-## Semaine 1 : 
+### mardi 8 septembre
+Cours Variables - Boucles et fonctions et QCM.
+**Travail pour le 11 :** Exercices 1 à 9 du site https://codefather63.github.io/nsi-premiere/nsi/cours/chap02_programmer/exercices/
+
+
+### Lundi 7 septembre
+Fin activité turtle et TP ASCII Arts. Point fonctions.
+
+### Vendredi 4 septembre
+Présentations Activité d'introduction Turtle.
