@@ -1,4 +1,4 @@
-# Mathématiques - Terminales
+# Mathématiques - Première
 Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
