@@ -4,14 +4,14 @@ Bienvenue dans le cours de mathématiques de terminale.
 ## Cahier de texte
 
 ### vendredi 11 septembre
-Évaluation (20 min) + suite : récurrence
+Correction + EX 9 à 13
 
 ### jeudi 10 septembre
-CH2 - Exercices en groupe 
+Évaluation (20 min) +  deux exemples de démonstrations
 
 ### mercredi 9 septembre
 Entrainement sur un exercice avec fonction exponentielle.
-CH2 - Récurrence
+CH2 - Récurrence puis exercice à démontrer pour le 11
 
 ### 7 septembre
 Correction des exercices, puis Exercice 6 fait ensemble.
