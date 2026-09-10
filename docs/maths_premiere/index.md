@@ -7,7 +7,7 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 
 ### jeudi 10 septembre
-Correction du 11 puis Ex 12 au 18. c'est à finir pour le 15
+Correction du 11 puis Ex 12 au 15. c'est à finir pour le 15
 
 ### mercredi 9 septembre
 Correction des exercices jusqu'au 11. 
