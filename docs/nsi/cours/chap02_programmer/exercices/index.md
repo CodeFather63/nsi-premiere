@@ -128,6 +128,8 @@ c. Ajouter une instruction conditionnelle (`if`) pour vérifier ce résultat.
 
 ---
 
+[📘](corrige_1_9.py)
+
 ## Exercice 11
 Écrire une fonction `pair` qui retourne `True` si le nombre passé en argument est pair.
 

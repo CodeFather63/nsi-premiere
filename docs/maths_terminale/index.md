@@ -3,11 +3,16 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+
+### Lundi 14 septembre
+Réponses aux questions sur les exemples 2 et 3. Redaction de la récurrence donnée le 9. Puis Ex 9
+
+
 ### vendredi 11 septembre
-Correction + EX 9 à 13
+Correction de la recurrence donnée mercredi. Reprendre les exemples du cours sur la recurrence
 
 ### jeudi 10 septembre
-Évaluation (20 min) +  deux exemples de démonstrations
+Évaluation (50 min) 
 
 ### mercredi 9 septembre
 Entrainement sur un exercice avec fonction exponentielle.
