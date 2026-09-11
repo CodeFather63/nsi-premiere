@@ -2,8 +2,11 @@
 
 ## Cahier de texte
 
-### vendredi 11 septembre
+### lundi 14 septembre
+Correction de tous les exercices. Réponses aux questions puis suite 
 
+### vendredi 11 septembre
+Correction des exercices 1 à 7. Reste 8 et 9 à revoir pour Lundi 
 
 ### mardi 8 septembre
 Cours Variables - Boucles et fonctions et QCM.
