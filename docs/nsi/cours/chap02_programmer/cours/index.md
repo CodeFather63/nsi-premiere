@@ -1,4 +1,4 @@
-# cours
+# cours    [📘](_2026_Cours_Python_Types_Conditions_Fonctions.pdf)
 
 # 1. Types de base
 
