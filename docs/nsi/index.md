@@ -2,11 +2,17 @@
 
 ## Cahier de texte
 
+
+### vendredi 18 septembre: 
+Correction des exercices puis évaluation.
+
+
 ### lundi 14 septembre
-Correction de tous les exercices. Réponses aux questions puis suite 
+Correction de tous les exercices et réponses aux questions. Lecture Cours sur les variables, les conditions et les fonctions
+**Travail pour le 18 : ** Préparer Eval sur ces premiers exercices. Faire les exercices de fin du cours. Ils seront corrigés avant l'évaluation.
 
 ### vendredi 11 septembre
-Correction des exercices 1 à 7. Reste 8 et 9 à revoir pour Lundi 
+Correction des exercices 1 à 9 du cours. DEs difficulté sur la factirielle à retravailler pour Lundi.
 
 ### mardi 8 septembre
 Cours Variables - Boucles et fonctions et QCM.
