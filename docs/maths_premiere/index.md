@@ -3,8 +3,23 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
-### mardi 15 septembre
 
+### jeudi 17 septembre:
+**Eval**
+- Définition / formule de PA(B)
+- Construire un arbre à partir de données
+- Calculer un chemin (produit)
+- Probabilités totales
+- Conditionnelle « à l'envers »
+- Modéliser une situation concrète
+
+### mercredi 16 septembre
+Correction ex 22 puis 23 à 25 ...
+
+
+### mardi 15 septembre
+Correction des exerices 15 à 12 puis Fiche 2. Loi des probabilités totales. Ex 20 à 21
+**Travail pour le 10 :** Ex 22
 
 ### jeudi 10 septembre
 Correction du 11 puis Ex 12 au 15. c'est à finir pour le 15

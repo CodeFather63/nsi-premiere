@@ -9,14 +9,15 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ### jeudi 17 septembre
 
-### Mercredi 16 septembre
 
+### Mercredi 16 septembre
+Correction 11 et 12 
 
 ### Lundi 14 septembre
 Réponses aux questions sur les exemples 2 et 3. Redaction de la récurrence donnée le 9. Puis Ex 11_12_9_10 _16 et 18 
 **Travail pour le 16 :** Ex 11_12
 **Travail pour le 17 :** Ex 10_9
-**Travail pour le 18 :** Ex 16_18
+**Travail pour le 18 :** Ex 15_16 écrits au tableau
 
 ### vendredi 11 septembre
 Correction de la recurrence donnée mercredi. Reprendre les exemples du cours sur la recurrence
