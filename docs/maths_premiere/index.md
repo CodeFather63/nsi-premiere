@@ -14,7 +14,8 @@ Bienvenue dans le cours de mathématiques de terminale.
 - Modéliser une situation concrète
 
 ### mercredi 16 septembre
-Correction ex 22 puis 23 à 25 ...
+Correction ex 22 puis 
+**Travail à faire ensuite  : **23 à 25 ...
 
 
 ### mardi 15 septembre
