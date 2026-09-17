@@ -3,7 +3,17 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+### jeudi 24 septembre:
+Corrections
 
+### mercredi 23 septembre
+Corrections
+**Travail à faire   : ** : pour le 24 Exercice du BAc Fiche 4
+-
+### mardi 22 septembre
+Correction des exerices 23 à 25 et d'autres selon demandes. COURS : Fiche 3
+**Travail à faire  pour le 23  : ** Ex 33-34_35-37
+-
 ### jeudi 17 septembre:
 **Eval**
 - Définition / formule de PA(B)
@@ -12,12 +22,10 @@ Bienvenue dans le cours de mathématiques de terminale.
 - Probabilités totales
 - Conditionnelle « à l'envers »
 - Modéliser une situation concrète
-
 ### mercredi 16 septembre
 Correction ex 22 puis 
 **Travail à faire ensuite  : **23 à 25 ...
-
-
+-
 ### mardi 15 septembre
 Correction des exerices 15 à 12 puis Fiche 2. Loi des probabilités totales. Ex 20 à 21
 **Travail pour le 10 :** Ex 22
