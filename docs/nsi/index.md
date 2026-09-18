@@ -3,6 +3,14 @@
 ## Cahier de texte
 
 
+### vendredi 25 septembre:
+
+
+### mardi 22 septembre
+
+### lundi 21 septembre
+
+
 ### vendredi 18 septembre: 
 Correction des exercices puis évaluation.
 
