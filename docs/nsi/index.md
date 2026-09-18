@@ -8,11 +8,13 @@
 
 ### mardi 22 septembre
 
+
 ### lundi 21 septembre
 
 
 ### vendredi 18 septembre: 
-Correction des exercices puis évaluation.
+Correction des exercices (de la fiche de cours ... Pour Maxime) puis évaluation.
+**Travail pour le 21 : ** Avancer si possible sur les exercices du site 11, 12,13 et plus si affinités ...
 
 ### lundi 14 septembre
 Correction de tous les exercices et réponses aux questions. Lecture Cours sur les variables, les conditions et les fonctions
