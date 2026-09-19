@@ -4,13 +4,14 @@
 
 
 ### vendredi 25 septembre:
-
+TP : Le juste Prix....
 
 ### mardi 22 septembre
+Les groupes présentent leurs scripts.
 
 
 ### lundi 21 septembre
-
+Préparer par groupe de deux les corrigés des exercices 12 à 25. Puis les groupes présentent leurs scripts.
 
 ### vendredi 18 septembre: 
 Correction des exercices (de la fiche de cours ... Pour Maxime) puis évaluation.
