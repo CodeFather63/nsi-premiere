@@ -4,19 +4,18 @@ Bienvenue dans le cours de mathématiques de terminale.
 ## Cahier de texte
 
 
-
-
-
-
+### vendredi 25 septembre
+suite PROBAS
 
 ### jeudi 24 septembre
-
+suite PROBAS
 
 ### Mercredi 23 septembre
-Évaluation Démonstration par récurrence
+Évaluation Démonstration par récurrence puis suite PROBAS
 
 ### Lundi 21 septembre
-
+Correction Activité Loi binomiale puis COURS
+**Travail pour le 23 :** Evaluation raisonnement par récurrence
 
 ### vendredi 18 septembre
 Correction activité révisions puis Activité découverte Loi binomiale
