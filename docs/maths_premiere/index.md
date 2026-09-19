@@ -4,14 +4,13 @@ Bienvenue dans le cours de mathématiques de terminale.
 ## Cahier de texte
 
 ### jeudi 24 septembre:
-Corrections
+Corrections activité suites et suite du cours !
 
 ### mercredi 23 septembre
-Corrections
-**Travail à faire   : ** : pour le 24 Exercice du BAc Fiche 4
--
+Corrections Ex 33-34_35-37 puis Fiche BAC en groupe.
+**Travail à faire   : ** : pour le 24 Activité Suites
 ### mardi 22 septembre
-Correction des exerices 23 à 25 et d'autres selon demandes. COURS : Fiche 3
+Correction Eval et des exerices 23 à 25 et d'autres selon demandes. COURS : Fiche 3
 **Travail à faire  pour le 23  : ** Ex 33-34_35-37
 -
 ### jeudi 17 septembre:
