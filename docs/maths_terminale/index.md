@@ -14,7 +14,7 @@ suite PROBAS
 Évaluation Démonstration par récurrence puis suite PROBAS
 
 ### Lundi 21 septembre
-Correction Activité Loi binomiale puis COURS
+Correction Activité Loi binomiale puis COURS Partie 1 et Exercices à finir pour Jeudi.
 **Travail pour le 23 :** Evaluation raisonnement par récurrence
 
 ### vendredi 18 septembre

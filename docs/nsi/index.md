@@ -7,11 +7,11 @@
 TP : Le juste Prix....
 
 ### mardi 22 septembre
-Les groupes présentent leurs scripts.
+Point sur le TP du juste prix.
 
 
 ### lundi 21 septembre
-Préparer par groupe de deux les corrigés des exercices 12 à 25. Puis les groupes présentent leurs scripts.
+Le Juste Prix version papier 
 
 ### vendredi 18 septembre: 
 Correction des exercices (de la fiche de cours ... Pour Maxime) puis évaluation.
