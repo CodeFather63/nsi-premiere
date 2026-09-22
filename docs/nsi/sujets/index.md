@@ -14,7 +14,7 @@
     <tr>
       <td>260918_A</td>
       <td><a href="2026_2027/260918_A.pdf">📄 PDF</a></td>
-      <td><a href="2026_2027/260918_A.pdf">📄 PDF</a></td>
+      <td><a href="2026_2027/260918_B.pdf">📄 PDF</a></td>
     </tr>
 
   </tbody>
