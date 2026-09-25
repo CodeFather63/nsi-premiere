@@ -3,8 +3,18 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+### jeudi 01 octobre
+CH3 : 
+
+### mercredi 30 septembre
+Reprise de questions OU Fiche 4 : représentation graphique d'une suite
+
+### mardi 29 septembre
+Correction des exercices 60-61-71 PUIS RÉPONSES AUX QUESTIONS 
+
+
 ### jeudi 24 septembre:
-Corrections activité suites et suite du cours !
+Corrections activité suites et début du cours !
 
 ### mercredi 23 septembre
 Corrections Ex 33-34_35-37 puis Fiche BAC en groupe.

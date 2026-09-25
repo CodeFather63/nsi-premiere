@@ -17,7 +17,7 @@ Annales du BAC
 
 
 ### Lundi 28 septembre
-Correction Ex1 Annales du BAC
+Correction Ex1 et ex 2 , Annales du BAC
 
 ### vendredi 25 septembre
 Annales du BAC sur Probas
