@@ -3,9 +3,24 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+### samedi 03 octobre 
+DS de 3 heures avec calculatrice sur l'ensemble de ce début d'année.
+
+### vendredi 02 octobre
+Annales du BAC
+
+### jeudi 01 octobre
+Annales du BAC
+
+### Mercredi 30 septembre
+Annales du BAC
+
+
+### Lundi 28 septembre
+Correction Ex1 Annales du BAC
 
 ### vendredi 25 septembre
-suite PROBAS
+Annales du BAC sur Probas
 
 ### jeudi 24 septembre
 suite PROBAS
