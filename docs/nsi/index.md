@@ -2,9 +2,14 @@
 
 ## Cahier de texte
 
+### vendredi 02 octobre
+On continue les exercices sur ce chapitre
+
+### lundi 28 septembre
+Des éleves montrent leurs corrections
 
 ### vendredi 25 septembre:
-TP : Le juste Prix....
+Correction du TP  Le juste Prix. puis ex 11- 12- 13 ...
 
 ### mardi 22 septembre
 Point sur le TP du juste prix.
