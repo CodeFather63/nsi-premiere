@@ -3,9 +3,7 @@
 ## Cahier de texte
 
 ### vendredi 02 octobre
-Ex 12 à 20 [📘 AIDE](([AIDE](https://codefather63.github.io/nsi-premiere/nsi/cours/chap02_programmer/exercices/12_25_Guides.pdf)
-
-### lundi 28 septembre
+Ex 12 à 20 [📘 AIDE](cours/chap02_programmer/exercices/12_25_Guides.pdf)
 Des éleves montrent leurs corrections
 
 ### vendredi 25 septembre:
@@ -31,7 +29,7 @@ Correction des exercices 1 à 9 du cours. DEs difficulté sur la factirielle à 
 
 ### mardi 8 septembre
 Cours Variables - Boucles et fonctions et QCM.
-**Travail pour le 11 :** Exercices 1 à 9 du site [Ici](https://codefather63.github.io/nsi-premiere/nsi/cours/chap02_programmer/exercices/)
+**Travail pour le 11 :** Exercices 1 à 9 du site [Ici](cours/chap02_programmer/exercices/index.md)
 
 ### Lundi 7 septembre
 Fin activité turtle et TP ASCII Arts. Point fonctions.
