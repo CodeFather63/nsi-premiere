@@ -135,6 +135,8 @@ c. Ajouter une instruction conditionnelle (`if`) pour vérifier ce résultat.
 
 ---
 
+[📘 GUIDE Pour la suite](12_25_Guides.pdf)
+
 ## Exercice 12
 a. Quelle est la valeur de `a` à la fin du programme suivant ?
 
