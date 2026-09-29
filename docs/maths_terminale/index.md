@@ -10,14 +10,14 @@ DS de 3 heures avec calculatrice sur l'ensemble de ce début d'année.
 Annales du BAC
 
 ### jeudi 01 octobre
-Annales du BAC
+Annales de l'an dernier 
 
 ### Mercredi 30 septembre
-Annales du BAC
+Préparer les questions sur les différents chapitres et exercices donnés. 
 
 
 ### Lundi 28 septembre
-Correction Ex1 et ex 2 , Annales du BAC
+Annales de l'an dernier 
 
 ### vendredi 25 septembre
 Annales du BAC sur Probas
