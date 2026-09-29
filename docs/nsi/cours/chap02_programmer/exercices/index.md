@@ -293,3 +293,4 @@ b. Écrire une fonction qui simule plusieurs parties et compte les scores.
 c. Simuler 50 tours et afficher les scores.
 
 
+[📘 CORRECTION 11 à 25](corrige_CH02.py)
