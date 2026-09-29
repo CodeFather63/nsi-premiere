@@ -3,7 +3,7 @@
 ## Cahier de texte
 
 ### vendredi 02 octobre
-Ex 12 à 20 [📘 AIDE](12_25_Guides.pdf)
+Ex 12 à 20 [📘 AIDE](docs/nsi/cours/chap02_programmer/exercices/12_25_Guides.pdf)
 
 ### lundi 28 septembre
 Des éleves montrent leurs corrections
