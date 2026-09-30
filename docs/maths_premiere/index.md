@@ -3,11 +3,30 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+
+
+
+### VACANCES D'AUTOMNE !!
+
+### semaine du 12 au 16 : révisions équations / calculs pour ceux qui restent !
+
+
+### jeudi 8 octobre
+Suites et Algorithmes 
+
+### mercredi 7 octobre
+Notion de limites 
+
+### mardi 6 octobre
+Fiche 7 : étude du sens de variation
+
+
 ### jeudi 01 octobre
-CH3 : 
+Fiche 4 : représentation graphique d'une suite
+**Travail à faire   : ** : Finir les exercices 
 
 ### mercredi 30 septembre
-Reprise de questions OU Fiche 4 : représentation graphique d'une suite
+Reprise de questions 
 
 ### mardi 29 septembre
 Correction des exercices 60-61-71 PUIS RÉPONSES AUX QUESTIONS 
