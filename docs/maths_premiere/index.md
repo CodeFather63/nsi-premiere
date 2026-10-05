@@ -15,9 +15,6 @@ Bienvenue dans le cours de mathématiques de terminale.
 Suites et Algorithmes 
 
 ### mercredi 7 octobre
-Notion de limites 
-
-### mardi 6 octobre
 Fiche 7 : étude du sens de variation
 
 

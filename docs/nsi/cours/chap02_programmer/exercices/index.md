@@ -286,7 +286,7 @@ d. Afficher les M premiers nombres premiers.
 ---
 
 
-## Exercice 25
+## Exercice 25 [📘 Ex guidé](Exercice_25_Evolutif)
 a. Écrire une fonction `jeu(a, b)` simulant pierre-feuille-ciseaux.
 
 b. Écrire une fonction qui simule plusieurs parties et compte les scores.

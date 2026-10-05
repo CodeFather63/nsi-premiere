@@ -2,9 +2,15 @@
 
 ## Cahier de texte
 
+### vendredi 09 octobre
+
+
+
 ### vendredi 02 octobre
 Ex 12 à 20 [📘 AIDE](cours/chap02_programmer/exercices/12_25_Guides.pdf)
-Des éleves montrent leurs corrections
+Puis Ex 25 Guidé
+**Travail pour le 05 : Finir PFC Ex 25 Guidé
+**Travail pour le 09 : Distributeur Guidé ( voir défi)
 
 ### vendredi 25 septembre:
 Correction du TP  Le juste Prix. puis ex 11- 12- 13 ...
