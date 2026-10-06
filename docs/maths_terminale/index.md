@@ -3,6 +3,9 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+### mercredi 07 octobre :
+Début du chapitre sur les suites
+
 ### samedi 03 octobre 
 DS de 3 heures avec calculatrice sur l'ensemble de ce début d'année.
 
