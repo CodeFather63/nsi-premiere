@@ -8,14 +8,14 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ### VACANCES D'AUTOMNE !!
 
-### semaine du 12 au 16 : révisions équations / calculs pour ceux qui restent !
+### semaine du 12 au 16 : Techniques opératoires / Représentation graphique de suite et fonctions / Python
 
 
 ### jeudi 8 octobre
-Suites et Algorithmes 
+Techniques opératoires / Représentation graphique de suite et fonctions
 
 ### mercredi 7 octobre
-Fiche 7 : étude du sens de variation
+Représentation graphique de suite. 
 
 
 ### jeudi 01 octobre

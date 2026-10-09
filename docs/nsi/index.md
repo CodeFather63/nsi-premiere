@@ -2,9 +2,17 @@
 
 ## Cahier de texte
 
+
+### Lundi 2 Novembre :
+CH4 : Les types structurés 
+
+### Vacances 
+
+### Semaine du 12 au 16 : Voyage pédagogique ET un peu d'interraction
+
 ### vendredi 09 octobre
-
-
+Correction du distributeur. Activité du chapitre 3 "Un peu d'interraction"
+**Travail pour la semaine prochaine : reprendre un exercice PFC ou distributeur et mettre de l'interraction.
 
 ### vendredi 02 octobre
 Ex 12 à 20 [📘 AIDE](cours/chap02_programmer/exercices/12_25_Guides.pdf)
