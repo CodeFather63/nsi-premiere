@@ -3,6 +3,30 @@ Bienvenue dans le cours de mathématiques de terminale.
 
 ## Cahier de texte
 
+
+
+## Prévoir Eval SUites et Tchebychev à la rentrée...
+
+
+
+## VACANCES D'AUTOMNE
+
+
+### vendredi  16 octobre :
+P4 suites 
+
+### jeudi 15 octobre :
+P3 suites 
+
+### Lundi 12 octobre 
+P2 / P3 suites 
+
+### vendredi 09 octobre
+P1 / P2   Suites
+
+### jeudi 08 octobre
+P1 Suites
+
 ### mercredi 07 octobre :
 Début du chapitre sur les suites
 
