@@ -3,10 +3,18 @@
 ## Cahier de texte
 
 
+### vendredi 5 Novembre :
+CH4 : Les types structurés 
+
+### mercredi 4 Novembre : Evaluation types de variables / Boucles / Conditions
+
+### mardi 3 Novembre :
+CH4 : Les types structurés 
+
 ### Lundi 2 Novembre :
 CH4 : Les types structurés 
 
-### Vacances 
+### Vacances Pour les volontaires Défi  [Le jeu d'allumettes](defis/sujets/jeu_des_allumettes)
 
 ### Semaine du 12 au 16 : Voyage pédagogique ET un peu d'interraction
 
