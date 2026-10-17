@@ -1487,6 +1487,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#prerequis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prérequis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#1-types-simples-et-types-structures" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3880,6 +3891,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#prerequis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prérequis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#1-types-simples-et-types-structures" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4008,6 +4030,18 @@
 
 
 <h1 id="types-simples-et-types-structures">Types simples et types structurés</h1>
+<h2 id="prerequis">Prérequis</h2>
+<p>Avant de commencer ce chapitre, tu dois savoir :</p>
+<ul>
+<li>utiliser les types de base : entiers (<code>int</code>), flottants (<code>float</code>), booléens (<code>bool</code>) et chaînes de caractères (<code>str</code>) ;</li>
+<li>créer des variables et leur affecter des valeurs ;</li>
+<li>écrire des conditions avec <code>if</code>, <code>elif</code>, <code>else</code>, et les combiner avec <code>and</code>, <code>or</code>, <code>not</code> ;</li>
+<li>écrire des boucles <code>for</code> (avec <code>range</code>) et <code>while</code> ;</li>
+<li>définir une fonction avec <code>def</code>, lui passer des paramètres et retourner un résultat avec <code>return</code> ;</li>
+<li>importer une fonction depuis une bibliothèque, par exemple <code>from math import sqrt</code> ou <code>from random import randint</code> ;</li>
+<li>afficher et lire du texte avec <code>print</code> et <code>input</code>.</li>
+</ul>
+<hr />
 <h2 id="1-types-simples-et-types-structures">1. Types simples et types structurés</h2>
 <p>Tous les langages de programmation de haut niveau permettent de composer les types de base (nombres, chaînes de caractères, booléens) afin de créer des types plus complexes permettant de représenter des <em>collections</em> de valeurs. On appelle ces types des types construits ou types structurés.</p>
 <p>Ces types permettent de <em>construire</em> une collection à partir de ses éléments, de l'<em>affecter</em> à une variable, de la <em>passer en paramètre</em> à une fonction, de la <em>retourner</em> comme valeur d'une fonction, d'<em>extraire</em> ses éléments ou de <em>modifier</em> son contenu.</p>
@@ -4073,7 +4107,14 @@
 <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>  <span class="c1"># t vaut (10, 20)</span>
 <span class="n">a</span> <span class="o">=</span> <span class="mi">50</span>      <span class="c1"># t vaut toujours (10, 20)</span>
 </code></pre></div>
-<p>Ex 02-15-16</p>
+<div class="admonition example">
+<p class="admonition-title">Exercices</p>
+<ul>
+<li><a href="../exercices/#exercice-1-points">Exercice 1 — Points</a></li>
+<li><a href="../exercices/#exercice-2-dates">Exercice 2 — Dates</a></li>
+<li><a href="../exercices/#exercice-3-personnes">Exercice 3 — Personnes</a></li>
+</ul>
+</div>
 <hr />
 <h2 id="3-les-tableaux">3. Les tableaux</h2>
 <p>Un tableau est une collection ordonnée d'éléments de <em>même</em> type. Contrairement aux tuples, les tableaux sont muables, c'est-à-dire que le contenu d'un tableau peut changer après sa création. Un tableau peut servir par exemple à représenter une suite de nombres, ou la suite des mots d'un texte.</p>
@@ -4136,7 +4177,16 @@
 <span class="n">points</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>         <span class="c1"># retire tous les éléments de la liste</span>
 </code></pre></div>
 <p>Dans ce manuel, on emploie le mot <em>liste</em> lorsqu'il s'agit d'une séquence d'éléments à laquelle on va ajouter et retirer des éléments, et le mot <em>tableau</em> lorsqu'il s'agit d'une séquence d'éléments de taille fixe, dont le contenu, mais pas la taille, peut changer.</p>
-<p>Ex 06-18-20</p>
+<div class="admonition example">
+<p class="admonition-title">Exercices</p>
+<ul>
+<li><a href="../exercices/#exercice-6-zip-et-unzip">Exercice 6 — Zip et Unzip</a></li>
+<li><a href="../exercices/#exercice-15-cartes-a-jouer">Exercice 15 — Cartes à jouer</a></li>
+<li><a href="../exercices/#exercice-16-calcul-de-distances">Exercice 16 — Calcul de distances</a></li>
+<li><a href="../exercices/#exercice-18-tester-le-hasard">Exercice 18 — Tester le hasard</a></li>
+<li><a href="../exercices/#exercice-20-taux-dimposition">Exercice 20 — Taux d'imposition</a></li>
+</ul>
+</div>
 <hr />
 <h2 id="4-les-chaines-de-caracteres">4. Les chaînes de caractères</h2>
 <p>Les chaînes de caractères ont été introduites au chapitre 2 comme un type de base. Elles ont cependant certaines caractéristiques des tableaux :</p>
@@ -4156,7 +4206,19 @@
 <p class="admonition-title">Note</p>
 <p>« split » en anglais peut signifier « séparer » ou « scinder ».</p>
 </div>
-<p>Ex 08-24-25</p>
+<div class="admonition example">
+<p class="admonition-title">Exercices</p>
+<ul>
+<li><a href="../exercices/#exercice-8-palindrome">Exercice 8 — Palindrome</a></li>
+<li><a href="../exercices/#exercice-11-nombre-de-mots">Exercice 11 — Nombre de mots</a></li>
+<li><a href="../exercices/#exercice-12-longueur-des-mots">Exercice 12 — Longueur des mots</a></li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Activité : le jeu du pendu</p>
+<p>Pour mettre en pratique les chaînes de caractères, réalise l'activité du pendu :
+<a href="../activites/pendu.md">Le jeu du pendu</a></p>
+</div>
 <hr />
 <h2 id="5-les-dictionnaires">5. Les dictionnaires</h2>
 <p>Un dictionnaire est une table associative qui fait correspondre des clés à des valeurs de type quelconque. Les clés doivent être d'un type immuable, donc soit des nombres, soit des chaînes de caractères, soit des tuples à condition que ceux-ci ne contiennent que des éléments eux-mêmes immuables. Dans la majorité des cas, les clés sont des chaînes de caractères, ce qui explique le nom de <em>dictionnaire</em>, qui associe à chaque mot sa définition.</p>
@@ -4186,7 +4248,7 @@
 <p>Un dictionnaire vide est noté <code>{}</code>.</p>
 </div>
 <p>L'accès à une entrée d'un dictionnaire utilise la notation indexée, comme pour les tableaux, mais ici l'indice doit être la clé :</p>
-<div class="highlight"><pre><span></span><code><span class="n">langage</span><span class="p">[</span><span class="s2">&quot;Python&quot;</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><code><span class="n">langages</span><span class="p">[</span><span class="s2">&quot;Python&quot;</span><span class="p">]</span>
 <span class="n">dessins</span><span class="p">[</span><span class="s2">&quot;voiture&quot;</span><span class="p">]</span>
 <span class="n">personnes</span><span class="p">[(</span><span class="s2">&quot;Lovelace&quot;</span><span class="p">,</span> <span class="s2">&quot;Ada&quot;</span><span class="p">)]</span>
 </code></pre></div>
@@ -4222,9 +4284,18 @@
 <span class="c1"># ces listes peuvent être énumérées avec &#39;for ... in:&#39;</span>
 <span class="c1"># Exemple : affichage des éléments d&#39;un dictionnaire :</span>
 <span class="k">for</span> <span class="n">cle</span><span class="p">,</span> <span class="n">valeur</span> <span class="ow">in</span> <span class="n">dico</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">cle</span> <span class="o">+</span> <span class="s2">&quot;: &quot;</span> <span class="o">+</span> <span class="n">valeur</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">cle</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">valeur</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </code></pre></div>
-<p>Ex 14-26-28</p>
+<div class="admonition example">
+<p class="admonition-title">Exercices</p>
+<ul>
+<li><a href="../exercices/#exercice-14-personnes-dictionnaire">Exercice 14 — Personnes (dictionnaire)</a></li>
+<li><a href="../exercices/#exercice-24-inverser-un-dictionnaire">Exercice 24 — Inverser un dictionnaire</a></li>
+<li><a href="../exercices/#exercice-25-scrabble">Exercice 25 — Scrabble</a></li>
+<li><a href="../exercices/#exercice-26-geographie">Exercice 26 — Géographie</a></li>
+<li><a href="../exercices/#exercice-28-annuaire">Exercice 28 — Annuaire</a></li>
+</ul>
+</div>
 <hr />
 <h2 id="6-valeurs-et-references">6. Valeurs et références</h2>
 <p>Lorsque l'on affecte une valeur d'un type construit à une variable, on affecte en réalité une référence à cette valeur. Lorsque l'on affecte cette variable à une autre variable, les deux référencent alors la <em>même</em> valeur. On dit que les deux variables sont un alias pour la même valeur. Les alias peuvent être source de confusion et d'erreurs lorsqu'ils référencent des valeurs muables, car la modification du contenu de cette valeur par une variable affecte la valeur de l'autre variable.</p>
@@ -4266,7 +4337,13 @@
 <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">==</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="ow">is</span> <span class="n">b</span><span class="p">)</span>          <span class="c1"># True, False</span>
 </code></pre></div>
-<p>Ex 21-22</p>
+<div class="admonition example">
+<p class="admonition-title">Exercices</p>
+<ul>
+<li><a href="../exercices/#exercice-21-anagramme">Exercice 21 — Anagramme</a></li>
+<li><a href="../exercices/#exercice-22-melanger-un-tableau">Exercice 22 — Mélanger un tableau</a></li>
+</ul>
+</div>
 <h2 id="resume">Résumé</h2>
 <h1 id="lessentiel-types-et-structures-">L'essentiel — Types et structures -</h1>
 <p><img alt="PDF" src="resume.png" /></p>
