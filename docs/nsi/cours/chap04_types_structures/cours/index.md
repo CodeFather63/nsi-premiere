@@ -1,6 +1,6 @@
 # Types simples et types structurés
 
-## Prérequis
+## [Prérequis](../prerequis/index.md)
 
 Avant de commencer ce chapitre, tu dois savoir :
 
