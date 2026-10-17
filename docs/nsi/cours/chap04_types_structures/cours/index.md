@@ -1,5 +1,19 @@
 # Types simples et types structurés
 
+## Prérequis
+
+Avant de commencer ce chapitre, tu dois savoir :
+
+- utiliser les types de base : entiers (`int`), flottants (`float`), booléens (`bool`) et chaînes de caractères (`str`) ;
+- créer des variables et leur affecter des valeurs ;
+- écrire des conditions avec `if`, `elif`, `else`, et les combiner avec `and`, `or`, `not` ;
+- écrire des boucles `for` (avec `range`) et `while` ;
+- définir une fonction avec `def`, lui passer des paramètres et retourner un résultat avec `return` ;
+- importer une fonction depuis une bibliothèque, par exemple `from math import sqrt` ou `from random import randint` ;
+- afficher et lire du texte avec `print` et `input`.
+
+---
+
 ## 1. Types simples et types structurés
 
 Tous les langages de programmation de haut niveau permettent de composer les types de base (nombres, chaînes de caractères, booléens) afin de créer des types plus complexes permettant de représenter des *collections* de valeurs. On appelle ces types des types construits ou types structurés.
@@ -86,7 +100,10 @@ t = (a, b)  # t vaut (10, 20)
 a = 50      # t vaut toujours (10, 20)
 ```
 
-Ex 02-15-16
+!!! example "Exercices"
+    - [Exercice 1 — Points](../exercices/index.md#exercice-1-points)
+    - [Exercice 2 — Dates](../exercices/index.md#exercice-2-dates)
+    - [Exercice 3 — Personnes](../exercices/index.md#exercice-3-personnes)
 
 ---
 
@@ -176,7 +193,12 @@ points.clear()         # retire tous les éléments de la liste
 
 Dans ce manuel, on emploie le mot *liste* lorsqu'il s'agit d'une séquence d'éléments à laquelle on va ajouter et retirer des éléments, et le mot *tableau* lorsqu'il s'agit d'une séquence d'éléments de taille fixe, dont le contenu, mais pas la taille, peut changer.
 
-Ex 06-18-20
+!!! example "Exercices"
+    - [Exercice 6 — Zip et Unzip](../exercices/index.md#exercice-6-zip-et-unzip)
+    - [Exercice 15 — Cartes à jouer](../exercices/index.md#exercice-15-cartes-a-jouer)
+    - [Exercice 16 — Calcul de distances](../exercices/index.md#exercice-16-calcul-de-distances)
+    - [Exercice 18 — Tester le hasard](../exercices/index.md#exercice-18-tester-le-hasard)
+    - [Exercice 20 — Taux d'imposition](../exercices/index.md#exercice-20-taux-dimposition)
 
 ---
 
@@ -203,7 +225,14 @@ phrase = ' '.join(mots)   # "Il fera beau"
 !!! note
     « split » en anglais peut signifier « séparer » ou « scinder ».
 
-Ex 08-24-25
+!!! example "Exercices"
+    - [Exercice 8 — Palindrome](../exercices/index.md#exercice-8-palindrome)
+    - [Exercice 11 — Nombre de mots](../exercices/index.md#exercice-11-nombre-de-mots)
+    - [Exercice 12 — Longueur des mots](../exercices/index.md#exercice-12-longueur-des-mots)
+
+!!! tip "Activité : le jeu du pendu"
+    Pour mettre en pratique les chaînes de caractères, réalise l'activité du pendu :
+    [Le jeu du pendu](../activites/pendu.md)
 
 ---
 
@@ -241,7 +270,7 @@ personnes = {
 L'accès à une entrée d'un dictionnaire utilise la notation indexée, comme pour les tableaux, mais ici l'indice doit être la clé :
 
 ```python
-langage["Python"]
+langages["Python"]
 dessins["voiture"]
 personnes[("Lovelace", "Ada")]
 ```
@@ -292,10 +321,15 @@ items = dico.items()  # retourne la liste de tuples [("a", 10), ...]
 # ces listes peuvent être énumérées avec 'for ... in:'
 # Exemple : affichage des éléments d'un dictionnaire :
 for cle, valeur in dico.items():
-    print(cle + ": " + valeur)
+    print(f"{cle}: {valeur}")
 ```
 
-Ex 14-26-28
+!!! example "Exercices"
+    - [Exercice 14 — Personnes (dictionnaire)](../exercices/index.md#exercice-14-personnes-dictionnaire)
+    - [Exercice 24 — Inverser un dictionnaire](../exercices/index.md#exercice-24-inverser-un-dictionnaire)
+    - [Exercice 25 — Scrabble](../exercices/index.md#exercice-25-scrabble)
+    - [Exercice 26 — Géographie](../exercices/index.md#exercice-26-geographie)
+    - [Exercice 28 — Annuaire](../exercices/index.md#exercice-28-annuaire)
 
 ---
 
@@ -357,7 +391,9 @@ b = a.copy()
 print(a == b, a is b)          # True, False
 ```
 
-Ex 21-22
+!!! example "Exercices"
+    - [Exercice 21 — Anagramme](../exercices/index.md#exercice-21-anagramme)
+    - [Exercice 22 — Mélanger un tableau](../exercices/index.md#exercice-22-melanger-un-tableau)
 
 ## Résumé
 # L'essentiel — Types et structures - 
