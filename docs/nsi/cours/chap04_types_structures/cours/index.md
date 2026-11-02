@@ -102,7 +102,83 @@ a = 50      # t vaut toujours (10, 20)
 
 !!! example "Exercices"
     - [Exercice 1 — Points](../exercices/index.md#exercice-1-points)
+
+
+    Le milieu du segment d'extrémités $(x_1, y_1)$ et $(x_2, y_2)$ est le point de coordonnées $\left(\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}\right)$.
+
+    **Méthode 1 — avec l'affectation multiple.** On « déballe » chaque tuple dans deux variables, puis on calcule :
+
+    ```python
+    def milieu(p1, p2):
+        """ Retourne le milieu du segment (p1, p2) """
+        x1, y1 = p1
+        x2, y2 = p2
+        return ((x1 + x2) / 2, (y1 + y2) / 2)
+    ```
+
+    **Méthode 2 — avec les indices.** `p1[0]` est le premier élément du tuple (l'abscisse) et `p1[1]` le second (l'ordonnée). On peut donc calculer directement, sans variables intermédiaires :
+
+    ```python
+    def milieu(p1, p2):
+        """ Retourne le milieu du segment (p1, p2) """
+        return ((p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2)
+    ```
+
+    Les deux fonctions donnent le même résultat :
+
+    ```python
+    >>> milieu((0, 0), (4, 6))
+    (2.0, 3.0)
+    >>> milieu((1, 2), (4, 8))
+    (2.5, 5.0)
+    ```
+
+    !!! note
+        La division `/` donne toujours un flottant : le milieu de `(0, 0)` et `(4, 6)` est `(2.0, 3.0)` et non `(2, 3)`. La première méthode est plus lisible (les noms `x1`, `y1`… rappellent les coordonnées) ; la seconde est plus courte, mais `p1[0]` et `p2[1]` se confondent facilement.
+
     - [Exercice 2 — Dates](../exercices/index.md#exercice-2-dates)
+
+
+
+    **Question a.** Une date est un tuple `(j, m, a)`. Pour savoir si `d1` est antérieure à `d2`, on compare d'abord les années, puis, si elles sont égales, les mois, puis, si les mois sont égaux, les jours :
+
+    ```python
+    def anterieur(d1, d2):
+        """ Retourne True si la date d1 est antérieure à la date d2 """
+        j1, m1, a1 = d1
+        j2, m2, a2 = d2
+        if a1 != a2:
+            return a1 < a2
+        if m1 != m2:
+            return m1 < m2
+        return j1 <= j2
+    ```
+
+    ```python
+    >>> anterieur((10, 7, 2020), (1, 8, 2020))
+    True
+    >>> anterieur((1, 1, 2021), (31, 12, 2020))
+    False
+    ```
+
+    !!! note
+        Avec `j1 <= j2`, une date est considérée comme antérieure à elle-même : `anterieur(d, d)` vaut `True`. Pour un ordre strict, remplacer `<=` par `<`.
+
+    **Question b (début).** Le nombre d'années pleines entre `d1` et `d2` est presque `a2 - a1`. Il faut retirer 1 si l'anniversaire de `d1` n'est pas encore passé à la date `d2`. On commence donc par extraire les éléments des deux dates :
+
+    ```python
+    def age(d1, d2):
+        """ Retourne le nombre d'années pleines entre d1 et d2 (d1 antérieure à d2) """
+        j1, m1, a1 = d1
+        j2, m2, a2 = d2
+        annees = a2 - a1
+        # À compléter : retirer 1 à annees si l'anniversaire de d1 n'est pas encore passé en d2
+        # Indice : peut-on utiliser anterieur() avec la date d1 « ramenée » à l'année a2 ?
+        return annees
+    ```
+
+
+
     - [Exercice 3 — Personnes](../exercices/index.md#exercice-3-personnes)
 
 ---
