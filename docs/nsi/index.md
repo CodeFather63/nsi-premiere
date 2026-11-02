@@ -15,7 +15,7 @@ CH4 : Les types structurés
 ### Lundi 2 Novembre :
 CH4 : Les types structurés 
 
-### Vacances Pour les volontaires Défi  [Le jeu d'allumettes](defis/sujets/jeu_des_allumettes)
+### Vacances Pour les volontaires Défi  [Le jeu d'allumettes](defis/sujets/jeu_des_allumettes.pdf)
 
 ### Semaine du 12 au 16 : Voyage pédagogique ET un peu d'interraction
 
