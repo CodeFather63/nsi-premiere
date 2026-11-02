@@ -6,7 +6,8 @@
 ### vendredi 5 Novembre :
 CH4 : Les types structurés 
 
-### mercredi 4 Novembre : Evaluation types de variables / Boucles / Conditions
+### mercredi 4 Novembre : Evaluation types de variables / Boucles / Conditions 
+** [Entrainements](sujets/2026_2027/Entrainement_Boucles_Variables.pptx)
 
 ### mardi 3 Novembre :
 CH4 : Les types structurés 
