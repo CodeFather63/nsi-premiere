@@ -4111,7 +4111,64 @@
 <p class="admonition-title">Exercices</p>
 <ul>
 <li><a href="../exercices/#exercice-1-points">Exercice 1 — Points</a></li>
+</ul>
+<p>Le milieu du segment d'extrémités $(x_1, y_1)$ et $(x_2, y_2)$ est le point de coordonnées $\left(\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}\right)$.</p>
+<p><strong>Méthode 1 — avec l'affectation multiple.</strong> On « déballe » chaque tuple dans deux variables, puis on calcule :</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">milieu</span><span class="p">(</span><span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; Retourne le milieu du segment (p1, p2) &quot;&quot;&quot;</span>
+    <span class="n">x1</span><span class="p">,</span> <span class="n">y1</span> <span class="o">=</span> <span class="n">p1</span>
+    <span class="n">x2</span><span class="p">,</span> <span class="n">y2</span> <span class="o">=</span> <span class="n">p2</span>
+    <span class="k">return</span> <span class="p">((</span><span class="n">x1</span> <span class="o">+</span> <span class="n">x2</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="p">(</span><span class="n">y1</span> <span class="o">+</span> <span class="n">y2</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Méthode 2 — avec les indices.</strong> <code>p1[0]</code> est le premier élément du tuple (l'abscisse) et <code>p1[1]</code> le second (l'ordonnée). On peut donc calculer directement, sans variables intermédiaires :</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">milieu</span><span class="p">(</span><span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; Retourne le milieu du segment (p1, p2) &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">((</span><span class="n">p1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">p2</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="p">(</span><span class="n">p1</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">p2</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div>
+<p>Les deux fonctions donnent le même résultat :</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">milieu</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">milieu</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="p">(</span><span class="mf">2.5</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La division <code>/</code> donne toujours un flottant : le milieu de <code>(0, 0)</code> et <code>(4, 6)</code> est <code>(2.0, 3.0)</code> et non <code>(2, 3)</code>. La première méthode est plus lisible (les noms <code>x1</code>, <code>y1</code>… rappellent les coordonnées) ; la seconde est plus courte, mais <code>p1[0]</code> et <code>p2[1]</code> se confondent facilement.</p>
+</div>
+<ul>
 <li><a href="../exercices/#exercice-2-dates">Exercice 2 — Dates</a></li>
+</ul>
+<p><strong>Question a.</strong> Une date est un tuple <code>(j, m, a)</code>. Pour savoir si <code>d1</code> est antérieure à <code>d2</code>, on compare d'abord les années, puis, si elles sont égales, les mois, puis, si les mois sont égaux, les jours :</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">anterieur</span><span class="p">(</span><span class="n">d1</span><span class="p">,</span> <span class="n">d2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; Retourne True si la date d1 est antérieure à la date d2 &quot;&quot;&quot;</span>
+    <span class="n">j1</span><span class="p">,</span> <span class="n">m1</span><span class="p">,</span> <span class="n">a1</span> <span class="o">=</span> <span class="n">d1</span>
+    <span class="n">j2</span><span class="p">,</span> <span class="n">m2</span><span class="p">,</span> <span class="n">a2</span> <span class="o">=</span> <span class="n">d2</span>
+    <span class="k">if</span> <span class="n">a1</span> <span class="o">!=</span> <span class="n">a2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">a1</span> <span class="o">&lt;</span> <span class="n">a2</span>
+    <span class="k">if</span> <span class="n">m1</span> <span class="o">!=</span> <span class="n">m2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">m1</span> <span class="o">&lt;</span> <span class="n">m2</span>
+    <span class="k">return</span> <span class="n">j1</span> <span class="o">&lt;=</span> <span class="n">j2</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">anterieur</span><span class="p">((</span><span class="mi">10</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">2020</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">2020</span><span class="p">))</span>
+<span class="kc">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">anterieur</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2021</span><span class="p">),</span> <span class="p">(</span><span class="mi">31</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">2020</span><span class="p">))</span>
+<span class="kc">False</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Avec <code>j1 &lt;= j2</code>, une date est considérée comme antérieure à elle-même : <code>anterieur(d, d)</code> vaut <code>True</code>. Pour un ordre strict, remplacer <code>&lt;=</code> par <code>&lt;</code>.</p>
+</div>
+<p><strong>Question b (début).</strong> Le nombre d'années pleines entre <code>d1</code> et <code>d2</code> est presque <code>a2 - a1</code>. Il faut retirer 1 si l'anniversaire de <code>d1</code> n'est pas encore passé à la date <code>d2</code>. On commence donc par extraire les éléments des deux dates :</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">age</span><span class="p">(</span><span class="n">d1</span><span class="p">,</span> <span class="n">d2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; Retourne le nombre d&#39;années pleines entre d1 et d2 (d1 antérieure à d2) &quot;&quot;&quot;</span>
+    <span class="n">j1</span><span class="p">,</span> <span class="n">m1</span><span class="p">,</span> <span class="n">a1</span> <span class="o">=</span> <span class="n">d1</span>
+    <span class="n">j2</span><span class="p">,</span> <span class="n">m2</span><span class="p">,</span> <span class="n">a2</span> <span class="o">=</span> <span class="n">d2</span>
+    <span class="n">annees</span> <span class="o">=</span> <span class="n">a2</span> <span class="o">-</span> <span class="n">a1</span>
+    <span class="c1"># À compléter : retirer 1 à annees si l&#39;anniversaire de d1 n&#39;est pas encore passé en d2</span>
+    <span class="c1"># Indice : peut-on utiliser anterieur() avec la date d1 « ramenée » à l&#39;année a2 ?</span>
+    <span class="k">return</span> <span class="n">annees</span>
+</code></pre></div>
+<ul>
 <li><a href="../exercices/#exercice-3-personnes">Exercice 3 — Personnes</a></li>
 </ul>
 </div>
