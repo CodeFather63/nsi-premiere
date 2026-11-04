@@ -190,7 +190,7 @@ Un tableau est une collection ordonnée d'éléments de *même* type. Contrairem
 Un tableau est noté entre crochets. L'accès aux éléments d'un tableau se fait par la notation indexée `t[i]`, où `i` est appelé l'indice de l'élément `t[i]`. Le premier élément du tableau est à l'indice 0, le nombre d'éléments d'un tableau est donné par `len(t)` :
 
 ```python
-premiers = [1, 2, 3, 5, 7, 11, 13, 17, 19, 23]
+premiers = [2, 3, 5, 7, 11, 13, 17, 19, 23]
 print('le cinquième nombre premier est', premiers[4])  # 1er indice = 0
 for i in range(len(premiers)):  # i va de 0 à len(premiers)-1
     print('indice', i, '->', premiers[i])
